@@ -1,0 +1,16 @@
+# Database backup files
+backup/files/
+*.sql
+
+# Environment / secrets
+.env
+
+# Local database configuration
+config/database.local.php
+
+# Uploaded files
+uploads/
+
+# Temporary files
+*.log
+*.tmp
