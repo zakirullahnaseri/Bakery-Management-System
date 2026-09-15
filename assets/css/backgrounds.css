@@ -1,0 +1,155 @@
+/* =========================================================
+   BAKERY MANAGEMENT SYSTEM
+   BACKGROUND IMAGES
+========================================================= */
+
+body {
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+/* White overlay for readability */
+body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    background: rgba(255, 255, 255, 0.55);
+    z-index: -1;
+}
+
+
+/* =========================================================
+   DASHBOARD
+========================================================= */
+
+body.bg-dashboard {
+    background-image: url("../images/backgrounds/dashboard.jpg");
+}
+
+
+/* =========================================================
+   SALES
+========================================================= */
+
+body.bg-sales {
+    background-image: url("../images/backgrounds/sales.jpg");
+}
+
+/* =========================================================
+suppliers
+========================================================= */
+
+body.bg-suppliers {
+    background-image: url("../images/backgrounds/sales2.jpg");
+}
+
+
+/* =========================================================
+   PURCHASES
+========================================================= */
+
+body.bg-purchases {
+    background-image: url("../images/backgrounds/purchases.jpg");
+}
+
+
+/* =========================================================
+   EXPENSES
+========================================================= */
+
+body.bg-expenses {
+    background-image: url("../images/backgrounds/expenses.jpg");
+}
+
+
+/* =========================================================
+   STOCK
+========================================================= */
+
+body.bg-stock {
+    background-image: url("../images/backgrounds/stock.jpg");
+}
+
+
+/* =========================================================
+   CUSTOMERS
+========================================================= */
+
+body.bg-customers {
+    background-image: url("../images/backgrounds/customers.jpg");
+}
+/* =========================================================
+   backups
+========================================================= */
+
+body.bg-backups {
+    background-image: url("../images/backgrounds/purchases2.jpg");
+}
+
+
+/* =========================================================
+   REPORTS
+========================================================= */
+
+body.bg-reports {
+    background-image: url("../images/backgrounds/reports.jpg");
+}
+
+
+/* =========================================================
+   INGREDIENTS
+========================================================= */
+
+body.bg-ingredients {
+    background-image: url("../images/backgrounds/ingredients.jpg");
+}
+
+/* =========================================================
+   products
+========================================================= */
+
+body.bg-products {
+    background-image: url("../images/backgrounds/products.jpg");
+}
+
+/* =========================================================
+   LOGIN PAGE
+========================================================= */
+
+body.bg-login {
+    background-image: url("../images/backgrounds/login.jpg");
+}
+
+/* =========================================================
+   CARDS
+========================================================= */
+
+.card {
+    background-color: rgba(255, 255, 255, 0.94);
+    /* backdrop-filter : blur(3px) */
+}
+
+
+/* =========================================================
+   TABLE
+========================================================= */
+
+.table {
+    background-color: rgba(255, 255, 255, 0.96);
+}
+
+
+/* =========================================================
+   MOBILE
+========================================================= */
+
+@media (max-width: 768px) {
+
+    body {
+        background-attachment: scroll;
+    }
+
+}
