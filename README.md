@@ -134,9 +134,9 @@ The main goal of this project is to provide an easy-to-use system for bakery bus
 
 ## 👨‍💻 Author
 
-**Your Name**
+**Zakirullah naseri**
 
-GitHub: **Your GitHub Profile**
+GitHub: **https://github.com/zakirullahnaseri**
 
 ## 📄 License
 
